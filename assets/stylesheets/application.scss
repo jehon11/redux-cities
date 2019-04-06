@@ -10,6 +10,18 @@ body {
   .cities {
     width: 30%;
   }
+  .city {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+  .selected {
+    border: 1px solid red;
+  }
+  .picture {
+    max-width: 100%;
+  }
   .active-city {
     width: 70%;
     margin-left: 20px;

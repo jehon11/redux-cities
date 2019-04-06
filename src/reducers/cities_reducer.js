@@ -1,11 +1,11 @@
 import cities from "../../data/cities";
 
-const citiesReducer = (state = null, action) => {
+const CitiesReducer = (state = null, action) => {
   switch (action.type) {
-    case 'CITY_SELECTED':
+    case 'SELECT_CITY':
       return state;
     default:
       return cities;
   }
 };
-export default citiesReducer;
+export default CitiesReducer;
